@@ -1,0 +1,10 @@
+<web-app>
+    <servlet>
+        <servlet-name>LessonServlet</servlet-name>
+        <servlet-class>src.LessonServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LessonServlet</servlet-name>
+        <url-pattern>/lessons</url-pattern>
+    </servlet-mapping>
+</web-app>
